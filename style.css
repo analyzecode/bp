@@ -178,3 +178,41 @@ a.btn{
 	width:40%;
 	margin:-6% 2% 2% 0;
 }
+form{
+	display:flex;
+	flex-direction:column;
+	margin:2% auto;
+	width:60%;
+}
+label{
+	font-weight:600;
+	font-size:1.2rem;
+	margin:2% 0;
+}
+input,textarea{
+	background: #fff;
+	border:2px solid #dee2e6;
+	padding:1%;
+	border-radius:6px;
+	outline:none;
+	resize: none;
+	width:100%;
+}
+form .fb{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	margin:2% 0;
+}
+form .fb input{
+	width:48%;
+	border: none;
+}
+form .fb input:nth-child(1){
+	background: green;
+	color: #fff;
+}
+form .fb input:nth-child(2){
+	background: red;
+	color: #fff;
+}
